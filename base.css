@@ -1,0 +1,162 @@
+
+/*全体、フォントの定義開始位置*/
+*{
+  padding:0;
+  margin:0;
+}
+@font-face{
+  font-family: 'manifest';
+  src:url("fonts/BLKCHCRY.ttf") format("truetype");
+}
+@font-face{
+  font-family: 'tegakikakutto';
+  src:url("fonts/tegakikakutto.ttf") format("truetype");
+}
+
+/*全体、フォントの定義終了位置*/
+
+/*スライドバー開始位置*/
+.sidebar{
+  width:20%;
+  height:100vh;
+  position:fixed;
+  top:0;
+  right:0;
+  box-sizing: border-box;
+  padding-left:60px;
+  padding-top:30px;
+}
+.sidebar-content{
+  width:100%;
+  height:100%;
+}
+.sidebar-top{
+  font-size:48px;
+  font-family: 'manifest';
+  font-style:italic;
+}
+.slider-ul-box{
+  margin-top:45px;
+}
+.slider-li-list{
+  margin-bottom:30px;
+  font-family:'tegakikakutto';
+  font-weight:bold;
+  list-style:none;
+}
+/*スライドバー終了位置*/
+
+
+/*メインコンテンツ開始位置*/
+.main-wrapper{
+  width:80%;
+  box-sizing:border-box;
+  height:800px;
+}
+  /*トップ開始位置*/
+  .back-image{
+    width:100%;
+  }
+  /*トップ終了位置*/
+  /*メッセージ開始位置*/
+  .message{
+    padding:30px 0;
+    text-align:center;
+  }
+  .message h2{
+    border-bottom:3px solid black;
+    padding-bottom:20px;
+    display:inline-block;
+  }
+  .message p{
+    width:60%;
+    margin:50px auto;
+    text-align:left;
+  }
+  /*メッセージ終了位置*/
+  /*コンテンツ一覧*/
+  .content-list-wrapper{
+    height:1000px;
+    padding-top:30px;
+    text-align:center;
+  }
+  .content-box{
+    height:300px;
+    width:45%;
+    display:inline-block;
+    background-color:white;
+    margin:0 15px 30px;
+    box-shadow:3px 3px 3px 3px black;
+  }
+  .content-box h2{
+    margin:30px 0 0;
+  }
+  .content-box p{
+    width:80%;
+    margin:30px auto 0;
+    text-align:left;
+  }
+  /*コンテンツ一覧終了位置*/
+
+  /*製作者より開始位置*/
+  .from_producer{
+    text-align:center;
+    padding-top:120px;
+    margin:60px auto;
+    height:500px;
+    width:90%;
+    box-shadow: 0px 0px 100px black inset;
+  }
+  .from_producer h1{
+    color: #505050;/*文字色*/
+    padding: 0.5em;/*文字周りの余白*/
+    display: inline-block;/*おまじない*/
+    line-height: 1.3;/*行高*/
+    background: #dbebf8;/*背景色*/
+    vertical-align: middle;/*上下中央*/
+    border-radius: 25px 0px 0px 25px;/*左側の角を丸く*/
+  }
+  .from_producer h1:before{
+    content: '●';
+    color: white;
+    margin-right: 8px;
+  }
+  .from_producer ul{
+    margin:60px auto 30px;
+    text-align:left;
+    margin-left:120px;
+  }
+  .from_producer li{
+    margin:30px 0;
+  }
+  /*製作者より終了位置*/
+  /*アクセス開始位置*/
+  .access-box{
+    text-align:center;
+    margin-bottom:60px;
+  }
+  .access-box h1{
+    border-bottom:2px solid black;
+    padding:30px;
+    display:inline-block;
+    margin:0 0 60px;
+  }
+  /*アクセス終了位置*/
+  footer{
+    position:relative;
+    width:100%;
+    height:200px
+  }
+  footer small{
+    position:absolute;
+    bottom:100px;
+    left:50%;
+    transform: translateX(-50%);
+  }
+
+
+
+
+
+
+/*end*/
